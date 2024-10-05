@@ -39,3 +39,12 @@ console.log(val3);
 const val4 = sen.lastIndexOf("m"); //it is showing the last index of letter m in sen
 console.log(val4);
 
+//replace
+
+const replace = "My name is Ram Kumar Dhimal";
+
+const replaced = replace.replace("My","His");
+const replaced1 = replace.replaceAll("a", "u");
+
+console.log(replaced);
+console.log(replaced1);
