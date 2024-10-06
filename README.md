@@ -45,7 +45,8 @@ str.slice(starting i):
 this is helping us to slice the string data stored in str from given starting index i till the end of the string data.
 
 str.includes("letter"): 
-this helps us to find the letter in the given string data. the output is in boolean type : true or false
+this helps us to find the letter in the given string data. the output is in boolean type : true or false. this is case sensitive.
+Note: this is mostly used method as well.
 
 str.search("letter"): 
 this helps us to find the index of the given letter in the given string data.
