@@ -48,3 +48,38 @@ const replaced1 = replace.replaceAll("a", "u");
 
 console.log(replaced);
 console.log(replaced1);
+
+
+// ----------------------------------String slice, includes and search-------------
+// ----------------------------------String slice, includes and search-------------
+
+//whenever we need the substring then we use slice 
+const para = "My name is Ram.";
+const sliced = para.slice(3,6);  ///here we are giving two values as it needs one starting and another ending point of slicing
+
+console.log(sliced);
+
+//also we can give only one value as well that means the starting point only but it will return us all the remaining string from that certain starting point 
+const slicedOne = para.slice(5);
+console.log(slicedOne);
+
+// Also we can findout the last charactar like this way
+const lastchar = para.slice(-1);
+console.log(lastchar);
+
+
+// ------------------------------includes-------------------------------
+
+//includes finds out the given char in the paragraph
+// and returns the value in true and false form
+const include = para.includes("Ram");
+console.log(include);
+
+
+// -------------------------------search--------------------------------------
+// acts like the index of and last index of 
+
+const search = para.search("Ram");
+console.log(search);
+
+//output of index of given charactar
